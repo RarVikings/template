@@ -1,10 +1,12 @@
-//PLEASE DONT FUCK WITH ANY OF THESE.
+# CHVD Mission Script can be toggled by removing "#"
+# from lines 5,6,7,8,9
+#
 
 #include "CHVD\dialog.hpp"
-class CfgFunctions
-{
+#class CfgFunctions
+#{
 #include "CHVD\CfgFunctions.hpp"
-};
+#};
 
 //Means your first "spawn" is NOT a respawn, but a simple load-into the predefined spot.
 respawnOnStart = -1;
