@@ -28,9 +28,9 @@
 	waitUntil {!isNull player};
 	waitUntil {!isNull findDisplay 46};
 
-	player addAction ["View Distance Settings", CHVD_fnc_openDialog, [], -99, false, true];
+	//player addAction ["View Distance Settings", CHVD_fnc_openDialog, [], -99, false, true];
 
-	player addEventHandler ["Respawn", {player addAction ["View Distance Settings", CHVD_fnc_openDialog, [], -99, false, true]}];
+	//player addEventHandler ["Respawn", {player addAction ["View Distance Settings", CHVD_fnc_openDialog, [], -99, false, true]}];
 
 	//Detect when to change setting type
 	[] spawn {
