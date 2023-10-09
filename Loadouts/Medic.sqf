@@ -42,6 +42,7 @@ if (_PlayerUniform isEqualTo "") then {
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
 	_this addItemToUniform "ACE_Flashlight_XL50";
+	_this addItemToUniform "ACE_DAGR";
 	_this addItemToUniform "ACE_MapTools";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};}
 else {
