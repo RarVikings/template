@@ -73,6 +73,7 @@ else {
 _this addBackpack "mpx_daysack8";
 _this addItemToBackpack "ACE_EntrenchingTool";
 _this addItemToBackpack "UK3CB_BAF_HMNVS";
+_this addItemToBackpack "ACE_HuntIR_monitor";
 _this addItemToBackpack "H2H_acc_bayo_M12";
 for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_IR_Strobe_Item";};
 for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_elasticBandage";};
@@ -89,6 +90,7 @@ _this addItemToBackpack "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell";
 _this addItemToBackpack "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
 for "_i" from 1 to 3 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";};
 for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";};
+for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_HuntIR_M203";};
 _this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellRed";
