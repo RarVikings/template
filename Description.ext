@@ -1,9 +1,9 @@
-#include "CHVD\dialog.hpp"
-class CfgFunctions
-{
-#include "CHVD\CfgFunctions.hpp"
-#include "modules\grad-persistence\cfgFunctions.hpp"
-};
+//#include "CHVD\dialog.hpp"
+//class CfgFunctions
+//{
+//#include "CHVD\CfgFunctions.hpp"
+//#include "modules\grad-persistence\cfgFunctions.hpp"
+//};
 
 //Means your first "spawn" is NOT a respawn, but a simple load-into the predefined spot.
 respawnOnStart = -1;
