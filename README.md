@@ -8,7 +8,7 @@ How to rename the mission folder
 How to move respawn point
 1. Open mission in 3den
 2. In the entities search box (top left), search "respawn_west"
-3. move that map marker to where you want it to be
+3. Move that map marker to where you want it to be
 
 How to move initial spawn point
 1. Open mission in 3den
