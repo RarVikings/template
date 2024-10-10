@@ -2,7 +2,8 @@
 
 //Start Copy below this
 
-[this,"GUARD","ASIS"] call BIS_fnc_ambientAnim;
+[this,"GUARD","ASIS",qm_anchor] call BIS_fnc_ambientAnim;
+
 call{this addAction["<t color='#008322'>Save Kit</t>", {player execVM "Loadouts\SaveKit.sqf";}, [],10,false,false,"","_this distance _target < 10"];
 this addAction["<t color='#2E86C1'>IC</t>", {player execVM "Loadouts\IC.sqf";}, [],9,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#2E86C1'>2IC</t>", {player execVM "Loadouts\2IC.sqf";}, [],9,false,false,"","_this distance _target < 10"]; 
