@@ -18,4 +18,4 @@ How to move initial spawn point
 How to move quartermaster
 1. Open mission in 3den
 2. In the entities search box (top left), search "1RAR Arsenal"
-3. Move all of these objects to the desired location (Note that the quartermaster will attach himself to the invisible helipad so any movements to him in 3den will not be reflected unless you also move this helipad)****
+3. Move all of these objects to the desired location (Note that the quartermaster will attach himself to the invisible helipad so any movements to him in 3den will not be reflected unless you also move this helipad)
