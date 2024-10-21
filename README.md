@@ -6,9 +6,9 @@ How to use this template
 5. Make sure the file path you are extracting to matches what you see above
 6. Click "Extract"
 7. Verify you now have a folder named "YourName_MapName_OpName.VR"
-8. Change "YourName" to your name, for example "BT"
-9. Change "MapName" to the map name, for example "Malden"
-10. Change "OpName" to the operation name for example "OpHerrick01"
+8. Change "YourName" to your name, for example "BT", (Make sure not to use spaces!)
+9. Change "MapName" to the map name, for example "Malden", (Make sure not to use spaces!)
+10. Change "OpName" to the operation name for example "OpHerrick01", (Make sure not to use spaces!)
 11. Change ".VR" to the extension of the map you wish to use, if you don't know what this is, save a blank mission on your desired map and you'll see it in the folder name there
 12. You now have a mission file that can be opened in 3den and is ready for mission creation
 
