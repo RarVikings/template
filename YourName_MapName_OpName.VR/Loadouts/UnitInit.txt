@@ -1,0 +1,47 @@
+//~~~~~~Copy and paste the following into the QUARTER MASTERS .init in the editor!~~~~~
+
+//Start Copy below this
+
+[this,"GUARD","ASIS",qm_anchor] call BIS_fnc_ambientAnim;
+
+call{this addAction["<t color='#008322'>Save Kit</t>", {player execVM "Loadouts\SaveKit.sqf";}, [],10,false,false,"","_this distance _target < 10"];
+this addAction["<t color='#2E86C1'>IC</t>", {player execVM "Loadouts\IC.sqf";}, [],9,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#2E86C1'>2IC</t>", {player execVM "Loadouts\2IC.sqf";}, [],9,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>Pointman</t>", {player execVM "Loadouts\Pointman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>Rifleman</t>", {player execVM "Loadouts\Rifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>Medic</t>", {player execVM "Loadouts\Medic.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>GPMG</t>", {player execVM "Loadouts\GPMG.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>Grenadier</t>", {player execVM "Loadouts\Grenadier.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>Marksman</t>", {player execVM "Loadouts\Marksman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#E3E300'>Clear Kit</t>", {player execVM "Loadouts\ClearKit.sqf";}, [],7,false,false,"","_this distance _target < 10"];}
+
+//End Copy above this
+
+
+// To assign unit-patches to players, put this in the units .init's [ONLY ONE patch per unit!]
+
+			// 1AB
+[this, "1AB"] call BIS_fnc_setUnitInsignia;
+
+			// 1CD
+[this, "1CD"] call BIS_fnc_setUnitInsignia;
+
+			// 1EF
+[this, "1EF"] call BIS_fnc_setUnitInsignia;
+
+			// 1GH
+[this, "1GH"] call BIS_fnc_setUnitInsignia;
+
+		// ~~~ 2nd Platoon~~~
+
+			// 2AB
+[this, "2AB"] call BIS_fnc_setUnitInsignia;
+
+			// 2CD
+[this, "2CD"] call BIS_fnc_setUnitInsignia;
+
+			// 2EF
+[this, "2EF"] call BIS_fnc_setUnitInsignia;
+
+			// 2GH
+[this, "2GH"] call BIS_fnc_setUnitInsignia;
