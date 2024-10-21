@@ -33,7 +33,8 @@ _this linkItem "TFAR_rf7800str";
 
 // Uniform Items
 if (_PlayerUniform isEqualTo "") then {
-	_this forceAddUniform "UK3CB_BAF_U_CombatUniform_MTP";
+	_this forceAddUniform "QAC_UBACS_MTP";
+	_this addItemToUniform "ACE_DAGR";
 	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
@@ -41,18 +42,18 @@ if (_PlayerUniform isEqualTo "") then {
 	_this addItemToUniform "ACE_MapTools";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};}
 else {
+	_this addItemToUniform "ACE_DAGR";
 	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
 	_this addItemToUniform "ACE_Flashlight_XL50";
-	_this addItemToUniform "ACE_DAGR";
 	_this addItemToUniform "ACE_MapTools";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};
 };	
 
 // Vest Items
 if (_PlayerVest isEqualTo "") then {
-	_this addVest "mpx_virtus_p";
+	_this addVest "Virtus_D_4";
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};}
 else {
@@ -75,7 +76,8 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "ACE_bodyBag";
 	_this addItemToBackpack "UK3CB_BAF_762_200Rnd_T";
 	_this addItemToBackpack "UK3CB_BAF_762_100Rnd_T";
-	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";}
+	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
+	_this addItemToBackpack "ACE_Painkillers";}
 	else {
 	_this addItemToBackpack "ACE_EntrenchingTool";
 	_this addItemToBackpack "UK3CB_BAF_HMNVS";
@@ -90,11 +92,12 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "UK3CB_BAF_762_200Rnd_T";
 	_this addItemToBackpack "UK3CB_BAF_762_100Rnd_T";
 	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
+	_this addItemToBackpack "ACE_Painkillers";
 };
 
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
-	_this addHeadgear "mpx_cobra_catseyes";
+	_this addHeadgear "Rev_One";
 };
 
 //Assign Unit traits
