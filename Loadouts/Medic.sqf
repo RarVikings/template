@@ -37,7 +37,7 @@ _this linkItem "TFAR_rf7800str";
 
 // Uniform Items
 if (_PlayerUniform isEqualTo "") then {
-	_this forceAddUniform "UK3CB_BAF_U_CombatUniform_MTP";
+	_this forceAddUniform "QAC_UBACS_MTP";
 	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
@@ -50,23 +50,26 @@ else {
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
 	_this addItemToUniform "ACE_Flashlight_XL50";
+	_this addItemToUniform "ACE_DAGR";
 	_this addItemToUniform "ACE_MapTools";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};
 };	
 
 // Vest Items
 if (_PlayerVest isEqualTo "") then {
-	_this addVest "mpx_virtus_p";
+	_this addVest "Virtus_D_4";
 	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellPurple";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};}
 else {
 	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellPurple";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};
 };
 
@@ -84,17 +87,18 @@ _this addItemToBackpack "ACE_surgicalKit";
 _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
 for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_splint";};
 for "_i" from 1 to 7 do {_this addItemToBackpack "ACE_salineIV";};
-for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";};
+for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";};
 for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV_500";};
 for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 15 do {_this addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_bodyBag";};
 for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_Tourniquet";};
+for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Painkillers";};
 
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
-	_this addHeadgear "mpx_cobra_catseyes";
+	_this addHeadgear "Rev_One";
 };
 
 //Assign Unit traits
