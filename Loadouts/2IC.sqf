@@ -36,7 +36,7 @@ _this linkItem "TFAR_rf7800str";
 
 // Uniform Items
 if (_PlayerUniform isEqualTo "") then {
-	_this forceAddUniform "UK3CB_BAF_U_CombatUniform_MTP";
+	_this forceAddUniform "QAC_UBACS_MTP";
 	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	_this addItemToUniform "ACE_microDAGR";
@@ -56,7 +56,7 @@ else {
 
 // Vest Items
 if (_PlayerVest isEqualTo "") then {
-	_this addVest "mpx_virtus_p";
+	_this addVest "Virtus_D_4";
 	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
@@ -84,23 +84,27 @@ _this addItemToBackpack "ACE_epinephrine";
 _this addItemToBackpack "ACE_morphine";
 _this addItemToBackpack "ACE_bodyBag";
 for "_i" from 1 to 5 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_HE_Grenade_Shell";};
-for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";};
+for "_i" from 1 to 3 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";};
 _this addItemToBackpack "UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell";
 _this addItemToBackpack "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell";
 _this addItemToBackpack "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
 for "_i" from 1 to 3 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";};
 for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";};
+_this addItemToBackpack "ACE_HuntIR_monitor";
+for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_HuntIR_M203";};
+for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
+_this addItemToBackpack "UK3CB_BAF_762_100Rnd_T";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellRed";
 _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
-
+_this addItemToBackpack "ACE_Painkillers";
 
 
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
-	_this addHeadgear "mpx_cobra_catseyes";
+	_this addHeadgear "Rev_One";
 };
 
 //Assign Unit traits
