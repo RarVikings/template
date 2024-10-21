@@ -1,9 +1,16 @@
-How to rename the mission folder
-1. The mission folder default name is "YourName_MapName_OpName.VR"
-2. Change "YourName" to your name, for example "BT"
-3. Change "MapName" to the map name, for example "Malden"
-4. Change "OpName" to the operation name for example "OpHerrick01"
-5. Change ".VR" to the extension of the map you wish to use, if you don't know what this is, save a blank mission on your desired map and you'll see it in the folder name there
+How to use this template
+1. Click the green button at the top of this page labelled "<> Code"
+2. Click "Download ZIP"
+3. Download this zip into "C:\Users\<username>\AppData\Local\Arma 3\missions"
+4. Right click the zip and select "Extract All"
+5. Make sure the file path you are extracting to matches what you see above
+6. Click "Extract"
+7. Verify you now have a folder named "YourName_MapName_OpName.VR"
+8. Change "YourName" to your name, for example "BT"
+9. Change "MapName" to the map name, for example "Malden"
+10. Change "OpName" to the operation name for example "OpHerrick01"
+11. Change ".VR" to the extension of the map you wish to use, if you don't know what this is, save a blank mission on your desired map and you'll see it in the folder name there
+12. You now have a mission file that can be opened in 3den and is ready for mission creation
 
 How to move respawn point
 1. Open mission in 3den
