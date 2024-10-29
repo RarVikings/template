@@ -1,7 +1,7 @@
 How to use this template
 1. Click the green button at the top of this page labelled "<> Code"
 2. Click "Download ZIP"
-3. Download this zip into "C:\Users\<username>\AppData\Local\Arma 3\missions"
+3. Download this zip into "C:\Users\<User>\Documents\Arma 3 - Other Profiles\<USERNAME>\missions"
 4. Right click the zip and select "Extract All"
 5. Make sure the file path you are extracting to matches what you see above
 6. Click "Extract"
