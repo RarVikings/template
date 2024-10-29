@@ -95,6 +95,8 @@ for "_i" from 1 to 15 do {_this addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_bodyBag";};
 for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_Tourniquet";};
 for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Painkillers";};
+_this addItemToBackpack "kat_chestSeal";
+_this addItemToBackpack "kat_guedel";
 
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
