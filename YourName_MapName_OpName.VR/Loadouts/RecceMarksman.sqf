@@ -1,5 +1,5 @@
 //Place the following in the QM's .init in the editor 
-//this addAction["<t color='#38c12e'>Marksman</t>", {player execVM "Loadouts\Marksman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+//this addAction["<t color='#38c12e'>5-1 Marksman</t>", {player execVM "Loadouts\RecceMarksman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
 
 //Reset Unit traits 
 _this setVariable ["ace_medical_medicclass",0, true];
@@ -21,13 +21,13 @@ removeAllAssignedItems _this;
 // Give player the Basic Weapons needed (including Binos)
 _this addWeapon "UK3CB_BAF_L129A1";
 _this addPrimaryWeaponItem "UK3CB_BAF_LLM_IR_Black";
-_this addPrimaryWeaponItem "RKSL_optic_PMII_312";
+_this addPrimaryWeaponItem "RKSL_optic_PMII_312_sunshade";
 _this addPrimaryWeaponItem "UK3CB_BAF_762_L42A1_20Rnd";
 _this addPrimaryWeaponItem "UK3CB_underbarrel_acc_fgrip_bipod";
 _this addPrimaryWeaponItem "UK3CB_BAF_Silencer_L115A3";
 _this addWeapon "rhsusf_weap_glock17g4";
 _this addHandgunItem "UK3CB_BAF_9_17Rnd";
-_this addWeapon "Binocular";
+_this addWeapon "Rangefinder";
 
 // Give the Player the basic needed items such as Map
 _this linkItem "ItemMap";
@@ -59,7 +59,7 @@ else {
 if (_PlayerVest isEqualTo "") then {
 	_this addVest "Virtus_D_4";
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
-    for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
+    	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};
 	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_762_L42A1_20Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_762_L42A1_20Rnd_T";};}
@@ -86,13 +86,13 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "ACE_morphine";
 	_this addItemToBackpack "ACE_bodyBag";
 	_this addItemToBackpack "ACE_Painkillers";
-    _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
+    	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
 	_this addItemToBackpack "kat_chestSeal";
 	_this addItemToBackpack "kat_guedel";
-    _this addItemToBackpack "ACE_microDAGR";
-    _this addItemToBackpack "ACE_Kestrel4500";
-    _this addItemToBackpack "ACE_ATragMX";
-    _this addItemToBackpack "ACE_RangeCard";}
+    	_this addItemToBackpack "ACE_microDAGR";
+    	_this addItemToBackpack "ACE_Kestrel4500";
+    	_this addItemToBackpack "ACE_ATragMX";
+    	_this addItemToBackpack "ACE_RangeCard";}
 	else {
 	_this addBackpack "mpx_daysack8";
 	_this addItemToBackpack "ACE_EntrenchingTool";
@@ -103,17 +103,24 @@ if (_PlayerBackpack isEqualTo "") then {
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_packingBandage";};
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_quikclot";};
 	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellPurple";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellRed";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellGreen";};
+	for "_i" from 1 to 2 do {_this addItemToVest "ACE_Vector";};
+	_this addItemToVest "UK3CB_BAF_SmokeShellBlue";
 	_this addItemToBackpack "ACE_epinephrine";
 	_this addItemToBackpack "ACE_morphine";
 	_this addItemToBackpack "ACE_bodyBag";
 	_this addItemToBackpack "ACE_Painkillers";
-    _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
+    	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
 	_this addItemToBackpack "kat_chestSeal";
 	_this addItemToBackpack "kat_guedel";
-    _this addItemToBackpack "ACE_microDAGR";
-    _this addItemToBackpack "ACE_Kestrel4500";
-    _this addItemToBackpack "ACE_ATragMX";
-    _this addItemToBackpack "ACE_RangeCard";
+    	_this addItemToBackpack "ACE_microDAGR";
+    	_this addItemToBackpack "ACE_Kestrel4500";
+   	 _this addItemToBackpack "ACE_ATragMX";
+    	_this addItemToBackpack "ACE_RangeCard";
 };
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
