@@ -93,6 +93,8 @@ if (_PlayerBackpack isEqualTo "") then {
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellRed";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";};
+	_this addItemToBackpack "kat_chestSeal";
+	_this addItemToBackpack "kat_guedel";
 };
 
 // Check for Helmet 
