@@ -100,6 +100,8 @@ _this addItemToBackpack "UK3CB_BAF_SmokeShellRed";
 _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
 _this addItemToBackpack "ACE_Painkillers";
+_this addItemToBackpack "kat_chestSeal";
+_this addItemToBackpack "kat_guedel";
 
 
 // Check for Helmet 
