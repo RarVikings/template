@@ -1,5 +1,5 @@
 //Place the following in the QM's .init in the editor 
-//this addAction["<t color='#38c12e'>Rifleman</t>", {player execVM "Loadouts\Rifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+//this addAction["<t color='#38c12e'>5-1 Rifleman</t>", {player execVM "Loadouts\RecceRifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
 
 //Reset Unit traits 
 _this setVariable ["ace_medical_medicclass",0, true];
@@ -89,9 +89,9 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "kat_guedel";
 	_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd";
 	_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd_T";
-    _this addItemToBackpack "ACE_microDAGR";
-    _this addItemToBackpack "ACE_Tripod";
-    _this addItemToBackpack "ACE_SpottingScope";}    
+	_this addItemToBackpack "ACE_microDAGR";
+	_this addItemToBackpack "ACE_Tripod";
+	_this addItemToBackpack "ACE_SpottingScope";}    
 	else {
 	_this addItemToBackpack "ACE_EntrenchingTool";
 	_this addItemToBackpack "UK3CB_BAF_HMNVS";
@@ -111,9 +111,9 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "kat_guedel";
 	_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd";
 	_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd_T";
-    _this addItemToBackpack "ACE_microDAGR";
-    _this addItemToBackpack "ACE_Tripod";
-    _this addItemToBackpack "ACE_SpottingScope";
+    	_this addItemToBackpack "ACE_microDAGR";
+	_this addItemToBackpack "ACE_Tripod";
+	_this addItemToBackpack "ACE_SpottingScope";
 };
 
 // Check for Helmet 
