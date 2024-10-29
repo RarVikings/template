@@ -86,6 +86,8 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "UK3CB_BAF_762_100Rnd_T";
 	_this addItemToBackpack "ACE_bodyBag";
 	_this addItemToBackpack "ACE_Painkillers";}
+	_this addItemToBackpack "kat_chestSeal";
+	_this addItemToBackpack "kat_guedel";
 	else {
 	_this addItemToBackpack "ACE_EntrenchingTool";
 	_this addItemToBackpack "UK3CB_BAF_HMNVS";
