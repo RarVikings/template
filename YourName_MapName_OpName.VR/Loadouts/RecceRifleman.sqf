@@ -1,5 +1,5 @@
 //Place the following in the QM's .init in the editor 
-//this addAction["<t color='#FF0000'>Rifleman</t>", {player execVM "Loadouts\Rifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+//this addAction["<t color='#38c12e'>Rifleman</t>", {player execVM "Loadouts\Rifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
 
 //Reset Unit traits 
 _this setVariable ["ace_medical_medicclass",0, true];
