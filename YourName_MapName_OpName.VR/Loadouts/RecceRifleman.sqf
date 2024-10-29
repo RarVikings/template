@@ -70,7 +70,7 @@ else {
 
 // Backpack Items
 if (_PlayerBackpack isEqualTo "") then {
-	_this addBackpack "mpx_camel";
+	_this addBackpack "mpx_daysack8";
 	_this addItemToBackpack "ACE_EntrenchingTool";
 	_this addItemToBackpack "UK3CB_BAF_HMNVS";
 	_this addItemToBackpack "H2H_acc_bayo_M12";
