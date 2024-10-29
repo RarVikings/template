@@ -82,6 +82,11 @@ if (_PlayerBackpack isEqualTo "") then {
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_packingBandage";};
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_quikclot";};
 	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellPurple";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellRed";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellGreen";};
+	for "_i" from 1 to 2 do {_this addItemToVest "ACE_Vector";};
+	_this addItemToVest "UK3CB_BAF_SmokeShellBlue";
 	_this addItemToBackpack "ACE_epinephrine";
 	_this addItemToBackpack "ACE_morphine";
 	_this addItemToBackpack "ACE_bodyBag";
@@ -91,8 +96,8 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "kat_guedel";
     	_this addItemToBackpack "ACE_microDAGR";
     	_this addItemToBackpack "ACE_Kestrel4500";
-    	_this addItemToBackpack "ACE_ATragMX";
-    	_this addItemToBackpack "ACE_RangeCard";}
+   	 _this addItemToBackpack "ACE_ATragMX";
+    	_this addItemToBackpack "ACE_RangeCard";
 	else {
 	_this addBackpack "mpx_daysack9";
 	_this addItemToBackpack "ACE_EntrenchingTool";
@@ -102,8 +107,6 @@ if (_PlayerBackpack isEqualTo "") then {
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_elasticBandage";};
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_packingBandage";};
 	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_quikclot";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
 	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellPurple";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellRed";};
