@@ -38,7 +38,7 @@ _this linkItem "TFAR_rf7800str";
 // Uniform Items
 if (_PlayerUniform isEqualTo "") then {
 	_this forceAddUniform "QAC_UBACS_MTP";
-	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
+	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
 	_this addItemToUniform "ACE_Flashlight_XL50";
@@ -58,14 +58,14 @@ else {
 // Vest Items
 if (_PlayerVest isEqualTo "") then {
 	_this addVest "Virtus_D_4";
-	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShellPurple";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};}
 else {
-	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
+	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
@@ -78,25 +78,31 @@ _this addBackpack "mpx_daysack7";
 _this addItemToBackpack "ACE_EntrenchingTool";
 _this addItemToBackpack "UK3CB_BAF_HMNVS";
 _this addItemToBackpack "H2H_acc_bayo_M12";
-for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_IR_Strobe_Item";};
-for "_i" from 1 to 20 do {_this addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 25 do {_this addItemToBackpack "ACE_quikclot";};
-for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_morphine";};
 _this addItemToBackpack "ACE_surgicalKit";
 _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
-for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_splint";};
-for "_i" from 1 to 7 do {_this addItemToBackpack "ACE_salineIV";};
-for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";};
+_this addItemToBackpack "kat_X_AED";
+_this addItemToBackpack "kat_accuvac";
+_this addItemToBackpack "kat_Pulseoximeter";
+for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_adenosine";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "kat_amiodarone";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "kat_atropine";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 2 do {_this addItemToBackpack "kat_naloxone";};
+for "_i" from 1 to 1 do {_this addItemToBackpack "kat_Caffeine";};
+for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_Painkillers";};
+for "_i" from 1 to 20 do {_this addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 20 do {_this addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 20 do {_this addItemToBackpack "ACE_quikclot";};
+for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_Tourniquet";};
+for "_i" from 1 to 7 do {_this addItemToBackpack "kat_larynx";};
+for "_i" from 1 to 3 do {_this addItemToBackpack "kat_guedel";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "kat_chestSeal";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_splint";};
+for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV";};
 for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV_500";};
-for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_adenosine";};
-for "_i" from 1 to 15 do {_this addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_bodyBag";};
-for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_Tourniquet";};
-for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Painkillers";};
-_this addItemToBackpack "kat_chestSeal";
-_this addItemToBackpack "kat_guedel";
+for "_i" from 1 to 1 do {_this addItemToBackpack "ACE_IR_Strobe_Item";};
 
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
