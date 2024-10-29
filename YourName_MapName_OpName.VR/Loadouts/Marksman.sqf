@@ -103,6 +103,8 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "UK3CB_BAF_Kite";
 	_this addItemToBackpack "ACE_Painkillers";
 	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
+	_this addItemToBackpack "kat_chestSeal";
+	_this addItemToBackpack "kat_guedel";
 };
 // Check for Helmet 
 if (_PlayerHelmet isEqualTo "") then{
