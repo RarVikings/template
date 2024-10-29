@@ -38,7 +38,6 @@ _this linkItem "TFAR_rf7800str";
 // Uniform Items
 if (_PlayerUniform isEqualTo "") then {
 	_this forceAddUniform "QAC_UBACS_MTP";
-	_this addItemToUniform "ACE_DAGR";
 	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
@@ -46,7 +45,6 @@ if (_PlayerUniform isEqualTo "") then {
 	_this addItemToUniform "ACE_MapTools";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};}
 else {
-	_this addItemToUniform "ACE_DAGR";
 	for "_i" from 1 to 4 do {_this addItemToUniform "ACE_CableTie";};
 	_this addItemToUniform "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
