@@ -77,9 +77,9 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "UK3CB_BAF_HMNVS";
 	_this addItemToBackpack "H2H_acc_bayo_M12";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_IR_Strobe_Item";};
-	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_elasticBandage";};
-	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_packingBandage";};
-	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_quikclot";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_elasticBandage";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_packingBandage";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_quikclot";};
 	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
 	_this addItemToBackpack "ACE_epinephrine";
 	_this addItemToBackpack "ACE_morphine";
@@ -91,9 +91,9 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "UK3CB_BAF_HMNVS";
 	_this addItemToBackpack "H2H_acc_bayo_M12";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_IR_Strobe_Item";};
-	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_elasticBandage";};
-	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_packingBandage";};
-	for "_i" from 1 to 8 do {_this addItemToBackpack "ACE_quikclot";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_elasticBandage";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_packingBandage";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_quikclot";};
 	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Tourniquet";};
 	_this addItemToBackpack "ACE_epinephrine";
 	_this addItemToBackpack "ACE_morphine";
@@ -101,6 +101,8 @@ if (_PlayerBackpack isEqualTo "") then {
 	_this addItemToBackpack "ACE_bodyBag";
 	_this addItemToBackpack "ACE_Painkillers";
 	_this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
+	_this addItemToBackpack "kat_chestSeal";
+	_this addItemToBackpack "kat_guedel";
 };
 
 // Check for Helmet 
