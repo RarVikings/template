@@ -5,14 +5,20 @@
 [this,"GUARD","ASIS",qm_anchor] call BIS_fnc_ambientAnim;
 
 call{this addAction["<t color='#008322'>Save Kit</t>", {player execVM "Loadouts\SaveKit.sqf";}, [],10,false,false,"","_this distance _target < 10"];
+
 this addAction["<t color='#2E86C1'>IC</t>", {player execVM "Loadouts\IC.sqf";}, [],9,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#2E86C1'>2IC</t>", {player execVM "Loadouts\2IC.sqf";}, [],9,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#FF0000'>Pointman</t>", {player execVM "Loadouts\Pointman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#FF0000'>Rifleman</t>", {player execVM "Loadouts\Rifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
-this addAction["<t color='#FF0000'>Medic</t>", {player execVM "Loadouts\Medic.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+this addAction["<t color='#FF0000'>Medic</t>", {player execVM "Loadouts\Medic.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+this addAction["<t color='#FF0000'>Line Medic</t>", {player execVM "Loadouts\LineMedic.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#FF0000'>GPMG</t>", {player execVM "Loadouts\GPMG.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#FF0000'>Grenadier</t>", {player execVM "Loadouts\Grenadier.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#FF0000'>Marksman</t>", {player execVM "Loadouts\Marksman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
+
+this addAction["<t color='#38c12e'>Reconnaissance Rifleman</t>", {player execVM "Loadouts\RecceRifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+this addAction["<t color='#38c12e'>Reconnaissance Marksman</t>", {player execVM "Loadouts\RecceMarksman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+
 this addAction["<t color='#E3E300'>Clear Kit</t>", {player execVM "Loadouts\ClearKit.sqf";}, [],7,false,false,"","_this distance _target < 10"];}
 
 //End Copy above this
