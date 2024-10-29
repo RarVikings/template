@@ -97,7 +97,7 @@ if (_PlayerBackpack isEqualTo "") then {
     	_this addItemToBackpack "ACE_microDAGR";
     	_this addItemToBackpack "ACE_Kestrel4500";
    	 _this addItemToBackpack "ACE_ATragMX";
-    	_this addItemToBackpack "ACE_RangeCard";
+    	_this addItemToBackpack "ACE_RangeCard";}
 	else {
 	_this addBackpack "mpx_daysack9";
 	_this addItemToBackpack "ACE_EntrenchingTool";
