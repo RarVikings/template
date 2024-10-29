@@ -16,7 +16,7 @@ this addAction["<t color='#FF0000'>GPMG</t>", {player execVM "Loadouts\GPMG.sqf"
 this addAction["<t color='#FF0000'>Grenadier</t>", {player execVM "Loadouts\Grenadier.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
 this addAction["<t color='#FF0000'>Marksman</t>", {player execVM "Loadouts\Marksman.sqf";}, [],8,false,false,"","_this distance _target < 10"]; 
 
-this addAction["<t color='#38c12e'>5-1 Marksman</t>", {player execVM "Loadouts\RecceRifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
+this addAction["<t color='#38c12e'>5-1 Rifleman</t>", {player execVM "Loadouts\RecceRifleman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
 this addAction["<t color='#38c12e'>5-1 Marksman</t>", {player execVM "Loadouts\RecceMarksman.sqf";}, [],8,false,false,"","_this distance _target < 10"];
 
 this addAction["<t color='#E3E300'>Clear Kit</t>", {player execVM "Loadouts\ClearKit.sqf";}, [],7,false,false,"","_this distance _target < 10"];}
