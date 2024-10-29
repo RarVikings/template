@@ -61,13 +61,13 @@ if (_PlayerVest isEqualTo "") then {
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
-	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};}
+	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};}
 else {
 	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_556_30Rnd";};
 	for "_i" from 1 to 4 do {_this addItemToVest "UK3CB_BAF_556_30Rnd_T";};
 	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_SmokeShell";};
 	for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
-	for "_i" from 1 to 2 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};
+	for "_i" from 1 to 3 do {_this addItemToVest "UK3CB_BAF_9_17Rnd";};
 };
 
 // Backpack Items
