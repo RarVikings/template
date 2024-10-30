@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=11498;
+		nextID=11502;
 	};
 	class Camera
 	{
-		pos[]={33.304115,32.347839,-18.975918};
-		dir[]={0.018823462,-0.71768051,0.69613957};
-		up[]={0.01939944,0.69635296,0.71743584};
-		aside[]={0.99964875,-3.9763108e-09,-0.027030341};
+		pos[]={19.311262,32.347839,-7.9025846};
+		dir[]={0.19826925,-0.73696744,0.64619702};
+		up[]={0.21617338,0.67592704,0.70455021};
+		aside[]={0.95601374,2.3457687e-08,-0.2933284};
 	};
 };
 binarizationWanted=0;
@@ -52,22 +52,13 @@ addons[]=
 	"A3_Weapons_F_Items",
 	"ace_medical_engine",
 	"ace_medical_treatment",
-	"rhssaf_c_weapons",
-	"ace_compat_rhs_saf3",
-	"rhsusf_c_weapons",
-	"UK3CB_BAF_Equipment_Soflam",
-	"A3_Drones_F_Weapons_F_Gamma_Items",
-	"LT_Config",
-	"MTP_Uniform",
-	"Virtus_1DRS",
-	"ace_hearing",
 	"A3_Modules_F_Curator_Curator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=18;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -186,63 +177,6 @@ class AddonsMetaData
 		};
 		class Item17
 		{
-			className="rhssaf_c_weapons";
-			name="RHS: SAF Weapons configuration";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item18
-		{
-			className="ace_compat_rhs_saf3";
-			name="ACE3 - RHS SAF Compatibility";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item19
-		{
-			className="rhsusf_c_weapons";
-			name="RHSUSF Weapons & Accessories";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item20
-		{
-			className="UK3CB_BAF_Equipment_Soflam";
-			name="3CB BAF Equipment - Soflam";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item21
-		{
-			className="A3_Drones_F";
-			name="Arma 3 Beta - Drones";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item22
-		{
-			className="LT_Config";
-			name="LT_Config";
-		};
-		class Item23
-		{
-			className="MTP_Uniform";
-			name="MTP_Uniform";
-		};
-		class Item24
-		{
-			className="Virtus_1DRS";
-			name="Virtus_1DRS";
-		};
-		class Item25
-		{
-			className="ace_hearing";
-			name="ACE3 - Hearing";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item26
-		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
@@ -254,10 +188,7 @@ dlcs[]=
 {
 	"UK3CB_BAF_Weapons",
 	"UK3CB_BAF_Equipment",
-	"Enoch",
-	"RHS_SAF",
-	"RHS_USAF",
-	"ART"
+	"Enoch"
 };
 randomSeed=6367277;
 class ScenarioData
@@ -21712,6 +21643,7 @@ class Mission
 							};
 							id=2983;
 							type="B_officer_F";
+							atlOffset=2.8610229e-06;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -21803,6 +21735,7 @@ class Mission
 						speedMode="LIMITED";
 					};
 					id=2982;
+					atlOffset=-5;
 				};
 				class Item1
 				{
@@ -21819,6 +21752,7 @@ class Mission
 					};
 					id=2985;
 					type="Land_CampingTable_F";
+					atlOffset=4.7683716e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21852,6 +21786,7 @@ class Mission
 					};
 					id=2980;
 					type="Land_CampingTable_F";
+					atlOffset=4.7683716e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21876,7 +21811,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={44.001953,5,14.00293};
-						angles[]={-0,3.1415927,0};
+						angles[]={0,3.1415927,0};
 					};
 					side="Empty";
 					class Attributes
@@ -21892,16 +21827,16 @@ class Mission
 					class PositionInfo
 					{
 						position[]={45.5,6.0656819,12.749512};
-						angles[]={-0,0.52358603,0};
+						angles[]={0,0.52358603,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						disableSimulation=1;
 					};
 					id=2984;
 					type="Land_MultiScreenComputer_01_black_F";
+					atlOffset=0.81559658;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23336,16 +23271,16 @@ class Mission
 					class PositionInfo
 					{
 						position[]={42.501953,6.0656819,12.757568};
-						angles[]={-0,5.7595887,0};
+						angles[]={0,5.7595887,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						disableSimulation=1;
 					};
 					id=2981;
 					type="Land_MultiScreenComputer_01_black_F";
+					atlOffset=0.81559658;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24776,7 +24711,7 @@ class Mission
 				};
 			};
 			id=2986;
-			atlOffset=0.61169815;
+			atlOffset=0.4554472;
 		};
 		class Item1
 		{
@@ -25080,6 +25015,7 @@ class Mission
 					{
 					};
 					id=2923;
+					atlOffset=-5;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25654,6 +25590,7 @@ class Mission
 					{
 					};
 					id=2928;
+					atlOffset=-5;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26235,6 +26172,7 @@ class Mission
 					{
 					};
 					id=2937;
+					atlOffset=-5;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26816,6 +26754,7 @@ class Mission
 					{
 					};
 					id=2946;
+					atlOffset=-5;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27390,6 +27329,7 @@ class Mission
 					{
 					};
 					id=2955;
+					atlOffset=-5;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27432,111 +27372,24 @@ class Mission
 								isPlayable=1;
 								class Inventory
 								{
-									class primaryWeapon
-									{
-										name="rhs_weap_g36kv";
-										optics="rhsusf_acc_g33_T1";
-										firemode="rhs_weap_g36kv:Single";
-										class primaryMuzzleMag
-										{
-											name="rhssaf_30rnd_556x45_EPR_G36";
-											ammoLeft=30;
-										};
-									};
-									class handgun
-									{
-										name="UK3CB_BAF_L131A1";
-										class primaryMuzzleMag
-										{
-											name="UK3CB_BAF_9_17Rnd";
-											ammoLeft=17;
-										};
-									};
-									class binocular
-									{
-										name="UK3CB_BAF_Soflam_Laserdesignator";
-										class primaryMuzzleMag
-										{
-											name="Laserbatteries";
-											ammoLeft=1;
-										};
-									};
 									class uniform
 									{
-										typeName="Uniform_Tanktop_MTP";
+										typeName="QAC_UBACS_MTP";
 										isBackpack=0;
-									};
-									class vest
-									{
-										typeName="Virtus_B_4";
-										isBackpack=0;
-										class MagazineCargo
+										class ItemCargo
 										{
 											items=1;
 											class Item0
 											{
-												name="UK3CB_BAF_9_17Rnd";
-												count=2;
-												ammoLeft=17;
-											};
-										};
-										class ItemCargo
-										{
-											items=8;
-											class Item0
-											{
-												name="ACE_salineIV";
-												count=9;
-											};
-											class Item1
-											{
-												name="ACE_surgicalKit";
-												count=1;
-											};
-											class Item2
-											{
-												name="ACE_tourniquet";
-												count=5;
-											};
-											class Item3
-											{
-												name="ACE_elasticBandage";
-												count=25;
-											};
-											class Item4
-											{
-												name="ACE_packingBandage";
-												count=20;
-											};
-											class Item5
-											{
-												name="ACE_quikclot";
-												count=5;
-											};
-											class Item6
-											{
-												name="ACE_fieldDressing";
-												count=10;
-											};
-											class Item7
-											{
-												name="ACE_EarPlugs";
+												name="FirstAidKit";
 												count=1;
 											};
 										};
-									};
-									class backpack
-									{
-										typeName="mpx_camel2";
-										isBackpack=1;
 									};
 									map="ItemMap";
 									compass="ItemCompass";
 									watch="ItemWatch";
 									radio="ItemRadio";
-									gps="B_UavTerminal";
-									goggles="G_Aviator";
-									headgear="LT_Beret";
 								};
 							};
 							id=2965;
@@ -27826,6 +27679,7 @@ class Mission
 					{
 					};
 					id=2964;
+					atlOffset=-5;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27850,7 +27704,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={18,5,3};
-						angles[]={-0,6.4075346e-07,0};
+						angles[]={0,6.4075346e-07,0};
 					};
 					id=2969;
 					type="ModuleCurator_F";
@@ -27917,7 +27771,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={19,5,2.9997559};
-						angles[]={-0,3.4272674e-07,0};
+						angles[]={0,3.4272674e-07,0};
 					};
 					id=2970;
 					type="ModuleCurator_F";
@@ -27984,7 +27838,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={20,5,3.0002441};
-						angles[]={-0,3.4272674e-07,0};
+						angles[]={0,3.4272674e-07,0};
 					};
 					id=2971;
 					type="ModuleCurator_F";
@@ -28051,7 +27905,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={20.999512,5,2.9992676};
-						angles[]={-0,5.6624731e-07,0};
+						angles[]={0,5.6624731e-07,0};
 					};
 					id=2972;
 					type="ModuleCurator_F";
@@ -28114,7 +27968,7 @@ class Mission
 				};
 			};
 			id=2973;
-			atlOffset=-0.0024414063;
+			atlOffset=-0.30761719;
 		};
 	};
 };
