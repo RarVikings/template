@@ -3,7 +3,7 @@
 
 //Reset Unit traits 
 _this setVariable ["ace_medical_medicclass",0, true];
-_this setVariable ["ACE_IsEngineer",0, true];
+_this setVariable ["ACE_IsEngineer",2, true];
 
 //Create Needed Variables
 _PlayerUniform = uniform _this;
