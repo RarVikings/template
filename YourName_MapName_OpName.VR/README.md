@@ -1,7 +1,7 @@
 How to use this template
 1. Click the green button at the top of this page labelled "<> Code"
 2. Click "Download ZIP"
-3. Download this zip into "C:\Users\<User>\Documents\Arma 3 - Other Profiles\<USERNAME>\missions"
+3. Download this zip into "C:\Users\<username>\AppData\Local\Arma 3\missions"
 4. Right click the zip and select "Extract All"
 5. Make sure the file path you are extracting to matches what you see above
 6. Click "Extract"
@@ -9,7 +9,7 @@ How to use this template
 8. Change "YourName" to your name, for example "BT", (Make sure not to use spaces!)
 9. Change "MapName" to the map name, for example "Malden", (Make sure not to use spaces!)
 10. Change "OpName" to the operation name for example "OpHerrick01", (Make sure not to use spaces!)
-11. Change ".VR" to the extension of the map you wish to use, if you don't know what this is, save a blank mission on your desired map and you'll see that saved mission pop up here and you can copy it
+11. Change ".VR" to the extension of the map you wish to use, if you don't know what this is, save a blank mission on your desired map and you'll see it in the folder name there
 12. You now have a mission file that can be opened in 3den and is ready for mission creation
 
 How to open your mission in 3den
