@@ -1,3 +1,4 @@
+
 //Place the following in the QM's .init in the editor 
 //this addAction["<t color='#2E86C1'>Grenadier</t>", {player execVM "Loadouts\Grenadier.sqf";}, [],9,false,false,"","_this distance _target < 10"];
 
@@ -43,6 +44,7 @@ if (_PlayerUniform isEqualTo "") then {
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
 	_this addItemToUniform "ACE_Flashlight_XL50";
 	_this addItemToUniform "ACE_MapTools";
+	_this addItemToUniform "ACE_splint";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};}
 else {
 	_this addItemToUniform "ACE_DAGR";
@@ -52,6 +54,7 @@ else {
 	_this addItemToUniform "ACE_Flashlight_XL50";
 	_this addItemToUniform "ACE_MapTools";
 	for "_i" from 1 to 2 do {_this addItemToUniform "ACE_MRE_BeefStew";};
+	_this addItemToUniform "ACE_splint";
 };	
 
 // Vest Items
