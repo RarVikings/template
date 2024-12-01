@@ -97,7 +97,7 @@ _this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";
 _this addItemToBackpack "UK3CB_BAF_SmokeShellRed";
 _this addItemToBackpack "UK3CB_BAF_H_Beret_RA_PRR";
-_this addItemToBackpack "UK3CB_BAF_762_100Rnd_T";
+for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_762_100Rnd_T";};
 _this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
 _this addItemToBackpack "ACE_Painkillers";
 _this addItemToBackpack "kat_chestSeal";
