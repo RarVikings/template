@@ -99,9 +99,8 @@ for "_i" from 1 to 7 do {_this addItemToBackpack "kat_larynx";};
 for "_i" from 1 to 3 do {_this addItemToBackpack "kat_guedel";};
 for "_i" from 1 to 6 do {_this addItemToBackpack "kat_chestSeal";};
 for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_splint";};
-for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV";};
-for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV_250";};
-for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_salineIV";};
+for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_salineIV_500";};
 for "_i" from 1 to 1 do {_this addItemToBackpack "ACE_IR_Strobe_Item";};
 
 // Check for Helmet 
