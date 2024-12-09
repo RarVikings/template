@@ -100,47 +100,64 @@ if (_PlayerVest isEqualTo "") then {
 // Backpack Items
 if (_PlayerBackpack isEqualTo "") then {
 	_this addBackpack "mpx_daysack9";
+	_this addItemToBackpack "rhsusf_acc_premier_anpvs27";
+	_this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
+	_this addItemToBackpack "ACE_Canteen";
+	_this addItemToBackpack "kat_stethoscope";
+	_this addItemToBackpack "kat_Bubble_Wrap";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellRed";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";};
-	_this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
-	_this addItemToBackpack "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_MRE_BeefStew";};
-		_this addItemToBackpack "rhsusf_acc_premier_anpvs27";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd_T";};
+	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShell";};
+	_this addItemToBackpack "kat_accuvac";
 	_this addItemToBackpack "kat_Pulseoximeter";
 	_this addItemToBackpack "ACE_surgicalKit";
-	_this addItemToBackpack "kat_accuvac";
-	for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_splint";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_morphine";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "kat_chestSeal";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "kat_guedel";};	
-	for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_salineIV";};
-	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShell";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "kat_larynx";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "kat_amiodarone";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "kat_atropine";};
+	for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_epinephrine";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "kat_chestSeal";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "ACE_splint";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "ACE_morphine";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_salineIV_500";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_salineIV_250";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_salineIV";};
+	for "_i" from 1 to 2 do {_this addItemToBackpack "kat_naloxone";};
 	_this addItemToBackpack "ACE_EntrenchingTool";}
 
 
 else {
 	_this addBackpack "mpx_daysack9";
+	_this addItemToBackpack "rhsusf_acc_premier_anpvs27";
+	_this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
+	_this addItemToBackpack "ACE_Canteen";
+	_this addItemToBackpack "kat_stethoscope";
+	_this addItemToBackpack "kat_Bubble_Wrap";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellPurple";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellRed";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShellGreen";};
-	_this addItemToBackpack "UK3CB_BAF_SmokeShellBlue";
-	_this addItemToBackpack "ACE_Canteen";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_MRE_BeefStew";};
-		_this addItemToBackpack "rhsusf_acc_premier_anpvs27";
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd";};
 	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_762_L42A1_20Rnd_T";};
+	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShell";};
+	_this addItemToBackpack "kat_accuvac";
 	_this addItemToBackpack "kat_Pulseoximeter";
 	_this addItemToBackpack "ACE_surgicalKit";
-	_this addItemToBackpack "kat_accuvac";
-	for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_splint";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_morphine";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "kat_chestSeal";};
-	for "_i" from 1 to 4 do {_this addItemToBackpack "kat_larynx";};	
-	for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_salineIV";};
-	for "_i" from 1 to 2 do {_this addItemToBackpack "UK3CB_BAF_SmokeShell";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "kat_larynx";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "kat_amiodarone";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "kat_atropine";};
+	for "_i" from 1 to 6 do {_this addItemToBackpack "ACE_epinephrine";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "kat_chestSeal";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "ACE_splint";};
+	for "_i" from 1 to 3 do {_this addItemToBackpack "ACE_morphine";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_salineIV_500";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_salineIV_250";};
+	for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_salineIV";};
+	for "_i" from 1 to 2 do {_this addItemToBackpack "kat_naloxone";};
+
 	_this addItemToBackpack "ACE_EntrenchingTool";
 };
 // Check for Helmet 
